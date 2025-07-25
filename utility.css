@@ -30,24 +30,18 @@
 .p-1{
     padding: 10px;
 }
-/*Scrollbar*/
-/* For WebKit browsers (Chrome, Edge, Safari) */
+/* Width of the entire scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
+/* Background of the scrollbar track */
 ::-webkit-scrollbar-track {
-  background: transparent; /* Spotify-style: track hidden */
+  background: #0e0e0e; /* Dark background (like Spotify) */
 }
 
+/* The draggable thumb */
 ::-webkit-scrollbar-thumb {
-  background-color: #5e5e5e; /* dark gray thumb */
+  background: #3c423e;
   border-radius: 10px;
-  border: 2px solid transparent;
-  background-clip: content-box;
-  transition: background-color 0.3s ease;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #b3b3b3; /* lighter on hover */
 }
